@@ -38,30 +38,30 @@
 ```<cite> </cite>```
 ## Creates address section, usually processed in italics
 <address> </address>
-<em> </em>
 Emphasizes a word (usually processed in italics)
-<strong> </strong>
+<em> </em>
 Emphasizes a word (usually processed in bold)
-<font size=?> </font>
+<strong> </strong>
 Sets size of font - 1 to 7 (should use CSS instead)
-<font color=?> </font>
+<font size=?> </font>
 Sets font color (should use CSS instead)
-<font face=?> </font>
+<font color=?> </font>
 Defines the font used (should use CSS instead)
-Links
-<a href="URL">clickable text</a>
+<font face=?> </font>
+# Links
 Creates a hyperlink to a Uniform Resource Locator
-<a href="mailto:EMAIL_ADDRESS">clickable text</a>
+<a href="URL">clickable text</a>
 Creates a hyperlink to an email address
-<a name="NAME">
+<a href="mailto:EMAIL_ADDRESS">clickable text</a>
 Creates a target location within a document
-<a href="#NAME">clickable text</a>
+<a name="NAME">
 Creates a link to that target location
 Formatting
-<p> </p>
+<a href="#NAME">clickable text</a>
 Creates a new paragraph
-<br>
+<p> </p>
 AInserts a line break (carriage return)
+<br>
 <blockquote> </blockquote>
 Puts content in a quote - indents text from both sides
 <div> </div>
